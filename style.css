@@ -11,9 +11,16 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding: 20%;
 }
 
-div {
+button {
+  border: none;
+  background: none;
+}
+
+.post {
+  border-radius: 15px;
   background-color: white;
 }
 
@@ -22,8 +29,34 @@ div {
   height: 50px;
   border: none;
   border-radius: 50%;
+  margin-left: 1%;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  margin-left: 1%;
+}
+
+.point-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
 
 .main-content {
-  height: 300px;
+  height: 60%;
+  width: 60%;
+}
+
+.share {
+  background-color: #1fa1ff;
+  color: white;
+  display: flex;
+  flex-direction: row;
 }
